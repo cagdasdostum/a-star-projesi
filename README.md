@@ -11,6 +11,8 @@ Bu çalışmada hedeflenen şey sadece en kısa yolu bulmak değil, pompalama en
 
 Çözüm için kullanılan A* algoritması, her adımda bu iki maliyeti toplayarak f(n) = g(n) + h(n) formülünü uygular ve en umut verici düğümü seçerek ilerler. Bu yapı, arama işleminin doğrudan hedefe yaklaşan ve aynı zamanda maliyeti en düşük olan yollara öncelik vermesini sağlar.
 
+![İzmir Su Dağıtım Ağı](figure.png)
+
 ## Kurulum ve Kullanım
 Proje saf Python kullanılarak yazılmış olup herhangi bir dış kütüphane kurulumuna ihtiyaç duymamaktadır. Bilgisayarınızda Python kurulu olduğundan emin olduktan sonra, terminal veya komut satırı üzerinden projenin bulunduğu dizine giderek doğrudan aşağıdaki komutla çalıştırabilirsiniz:
 
